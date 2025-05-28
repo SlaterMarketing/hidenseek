@@ -54,7 +54,7 @@ export function SignInForm() {
               </label>
               <input
                 id="email"
-                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 text-gray-900 bg-white placeholder-gray-400"
                 type="email"
                 name="email"
                 placeholder="your@email.com"
@@ -67,7 +67,7 @@ export function SignInForm() {
               </label>
               <input
                 id="password"
-                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 text-gray-900 bg-white placeholder-gray-400"
                 type="password"
                 name="password"
                 placeholder="Enter your password"
