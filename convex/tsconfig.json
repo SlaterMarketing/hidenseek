@@ -20,6 +20,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["./**/*"],
+  "include": ["./**/*", "../generateJwks.mjs"],
   "exclude": ["./_generated"]
 }
