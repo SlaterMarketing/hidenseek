@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hide & Seek Game Finder</title>
+    <meta name="description" content="Find and organize local Hide and Seek card game sessions inspired by the Nebula TV series. Join games, create your own, and connect with other players!" />
+    <meta name="keywords" content="hide and seek, card game, nebula, jet lag, local games, game finder, multiplayer" />
+    <meta property="og:title" content="Hide & Seek Game Finder" />
+    <meta property="og:description" content="Find and organize local Hide and Seek card game sessions." />
+    <meta property="og:type" content="website" />
+    <!-- You can add an og:image meta tag here if you have a preview image -->
+    <!-- <meta property="og:image" content="URL_TO_YOUR_PREVIEW_IMAGE.png" /> -->
+    <!-- The og:url should be the canonical URL of your live application. Set this appropriately for production. -->
+    <meta property="og:url" content="" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // This is a hack to ensure the Inter Tight font is loaded before the page renders.
+      // Otherwise, the font will be loaded after the page renders, causing a flash of unstyled text.
+      // See https://github.com/google/fonts/issues/3580
+      (async () => {
+        await document.fonts.load("1rem Inter Tight");
+        await document.fonts.load("1rem Inter");
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
