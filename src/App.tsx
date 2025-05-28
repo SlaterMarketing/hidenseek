@@ -219,7 +219,7 @@ export default function App() {
           </div>
         )}
 
-        {activeView.type === "edit-profile" && myProfile && ( // Ensure myProfile is loaded
+        {activeView.type === "edit-profile" && (
            <div className="max-w-2xl mx-auto">
             <ProfileForm />
           </div>
